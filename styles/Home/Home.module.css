@@ -1,5 +1,43 @@
-.heading {
-  text-align: center;
-  color: aqua;
-  background: gainsboro;
+.nav {
+  display: flex;
+  background-color: #fff;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  border-bottom: 1px solid #e5e5e5;
+  z-index: 1;
+}
+
+.nav ul {
+  width: 50%;
+  height: 60px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav ul li {
+  font-weight: 600;
+  margin-left: 30px;
+}
+
+.nav .brand h3 {
+  font-size: 18px;
+  line-height: 19px;
+  font-weight: 700;
+}
+
+.account {
+  width: 50%;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 30px;
+  font-size: 12px;
+}
+
+.account > span:last-child {
+  cursor: pointer;
 }/*# sourceMappingURL=Home.module.css.map */
